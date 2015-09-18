@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_jobs" value="name:id_job;datatype:int,name:name_cat;datatype:string" />
+	<infoitem key="UD_zone" value="name:id_zone;datatype:int,name:zone;datatype:string" />
+	<infoitem key="UD_editquery" value="name:number_job;datatype:int,name:id_zone;datatype:int,name:id_job;datatype:int,name:title_job;datatype:string,name:matn_job;datatype:blob,name:id_user;datatype:int,name:name_qom;datatype:string,name:family_qom;datatype:string,name:name_shoping;datatype:string,name:tel_job;datatype:string,name:address_job;datatype:blob,name:fax_job;datatype:string,name:email_job;datatype:string,name:mobile_job;datatype:string,name:img_job;datatype:string,name:img_slide;datatype:string,name:count_viewer;datatype:int,name:confirm_job;datatype:int,name:date_insert;datatype:date,name:expire_job;datatype:string,name:price_status;datatype:int,name:website;datatype:string,name:like;datatype:int" />
+</info>

@@ -1,0 +1,294 @@
+/*
+Theme Name: YSM Design
+Theme URI: www.ysm-design.com
+Author: YSM Design
+Author URI: www.ysm-design.com
+Description: YSM Design
+Version: All
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, th, td {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: 0px;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	list-style:none;
+}
+
+body
+{
+margin: 0px auto;
+padding: 0px;
+background: url("img/bg.png") repeat-x scroll left 67px #FFFFFF;
+}
+
+@font-face {
+font-family: "BYekan";
+src: url("fonts/BYekan.eot?#") format("eot"),
+url("fonts/BYekan.woff") format("woff"),
+url("fonts/BYekan.ttf") format("truetype"); 
+font-style: normal;font-weight:normal;
+}
+
+
+
+a {text-decoration:none}
+
+#kol
+{
+	position: relative;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+
+#main
+{
+height: auto;
+    margin:0 auto;
+    position: relative;
+    width: 990px;
+    z-index: 0;padding-bottom:20px;
+	
+}
+
+
+#top
+{width:100% ;height:75px ;float:right ;margin-top: 20px;}
+#top .logo
+{float:right ;width:170px ;height:75px ;background:url(img/logo.png) no-repeat ;}
+
+#menu
+{width:100% ;height:37px ;background:url(img/menu.png) no-repeat;margin-top: 15px;float:right ;position:relative;}
+#menu li
+{float:right ;height:37px}
+#menu li:first-child
+{margin-right:30px;background: url("img/li-sep.png") no-repeat scroll right center transparent;}
+#menu li a
+{background: url("img/li-sep.png") no-repeat scroll left center transparent;
+    color: #696B68;
+    float: right;
+    font-family: BYekan;
+    font-size: 16px;
+    font-weight: normal;
+    height: 37px;
+    line-height: 36px;
+    padding: 0 20px;}
+#menu li a:hover
+{background:url("img/li-sep.png") no-repeat scroll left center #d6d6d6 ;color:#EA5353}
+	
+#menu li ul.panel
+{display:none;background:#fff ;border:1px solid #DDDEDB ;width:100% ;position:absolute ;top:37px;right:0 ;left:0 ;margin:0 auto ; z-index:9999;    }	
+#menu li:hover ul
+{display:block}	
+
+#menu li ul .box
+{float:right ;width:140px ;height:auto ;margin:5px 11px ;}
+#menu li ul .box img
+{max-width:140px !important ;width:auto ;height:auto }
+#menu li ul .box li
+{ background: none repeat scroll 0 0 transparent;
+    color: #A4A4A4;
+    direction: rtl;
+    float: right;
+    font-size: 11px;
+    height: auto;
+    list-style: disc inside none;
+    margin: 0 20px 0 0;
+    text-align: right;
+    width: 82%;}
+#menu li ul .box li a
+{  background: none repeat scroll 0 0 transparent;
+    color: #A4A4A4;
+    float: none;
+    font-family: tahoma;
+    font-size: 11px;
+    height: auto;
+    line-height: 23px;
+    padding: 0;
+    width: 100%;}
+#menu li ul .box li a:hover
+{color:#8b8b8c}
+	
+#menu .search {
+    float: left;
+    height: 100%;
+    margin-left: 30px;
+}
+#menu .search form {
+    margin-top: 8px;
+}
+#menu .search form label {
+    display: none;
+}
+
+#menu .search form input#s {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    color: #E52822;
+    direction: rtl;
+    float: right;
+    font-family: tahoma;
+    height: 18px;
+    margin-top: 1px;
+    width: 115px;
+}
+#menu .search form input#searchsubmit {
+    background: none repeat scroll 0 0 #989898;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: BYekan;
+    font-size: 13px;
+}	
+	
+	
+
+#ysm-slide
+{width:600px ;height:310px ;float:right ;margin-top:15px;margin-bottom:15px;}
+
+#content
+{width:760px ;height:auto ;float:left ;font-family: tahoma;color: #313131;direction: rtl;text-align: justify;font-size: 12px;line-height:21px}
+#content h1
+{font-family:BYekan ;font-size:18px ;color:#e52822 ;margin:9px 0 ;width:100% ;float:right}
+#content .box
+{width:365px ;height:155px ;float:right; margin-left: 10px;border-bottom:1px solid #e1e1e1}
+#content .box .th
+{float:right ;width:145px ;height:145px ;}
+#content .box .th img
+{max-width:145px ;max-height:145px ;width:auto ;height:auto ;}
+#content .box .con
+{color: #313131;
+    direction: rtl;
+    float: left;
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: normal;
+    height: 145px;
+    line-height: 21px;
+    text-align: right;
+    width: 205px;}
+#content .box .con h2 {
+    color: #E52822;
+    direction: rtl;
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+}
+#content .box .con a
+{font-weight: bold;color: #E52822;}
+#content .box .con a:hover
+{color:#449b45}
+
+#sidebar
+{float:right ;width:220px ;height:auto ;}	
+
+
+
+
+#footer
+{width:100% ;height:200px ;background:none repeat scroll 0 0 #EEEEEF}
+#footer .wrap
+{width:990px ;height:auto;margin:0 auto ;color: #9E9E9F;
+    font-family: Arial,Helvetica,sans-serif;font-size:11px ;text-align:left ;direction:ltr ;font-weight:normal}
+#footer .wrap .copy
+{width:auto ;float:left ;margin:18px 0 0 33px}
+#footer .wrap .design
+{float:right ;margin:18px 33px 0 0}
+
+.wp-pagenavi {
+	  clear: both;
+    direction: rtl;
+    font-family: tahoma;
+    font-size: 11px;
+    list-style: none outside none;
+    margin-right: 0;
+    margin-top: 10px;
+    padding: 0 0 15px;
+}
+
+.wp-pagenavi ul
+{
+list-style: none outside none
+}
+.wp-pagenavi h3 {
+	font-weight:normal
+}
+.wp-pagenavi a, .wp-pagenavi span {
+	text-decoration: none;
+	background:#F9F8F2;
+	border: 1px solid #ECE9D8;
+	padding: 1px 6px;
+	float :right;
+	margin: 2px;
+	-moz-border-radius: 3px;
+list-style: none outside none;
+}
+.wp-pagenavi span.current {
+	background:#ffffff;
+	color:#666666;
+	border: 1px solid #ECE9D8;
+}
+.wp-pagenavi a:hover {
+	background:#ff5579;
+	border-color: #87001d;
+	color:#ffffff
+}
+.wp-pagenavi span.current {
+	font-weight: bold;
+}
+
+.comments-template{
+	margin: 10px 0 0;
+	border-top: 1px solid #ccc;
+	padding: 10px 0 0;
+}
+
+.comments-template ol{
+	margin: 0;
+	padding: 0 0 15px;
+	list-style: none;
+}
+
+.comments-template ol li{
+	margin: 10px 0 0;
+	line-height: 18px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.comments-template h2, .comments-template h3{
+	font-family: Georgia, Sans-serif;
+	font-size: 16px;
+}
+
+.commentmetadata{
+	font-size: 12px;
+}
+
+.comments-template p.nocomments{
+	padding: 0;
+}
+
+.comments-template textarea{
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 12px;
+}
+
+
+
+#clear
+{clear:both}

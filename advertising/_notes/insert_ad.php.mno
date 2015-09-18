@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_jobs" value="name:id_job;datatype:int,name:name_cat;datatype:string" />
+	<infoitem key="UD_zone" value="name:id_zone;datatype:int,name:zone;datatype:string" />
+</info>
